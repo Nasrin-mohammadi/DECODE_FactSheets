@@ -5,7 +5,7 @@ import pandas as pd
 from database_handler import get_columns, query_database
 
 # Streamlit app interface
-st.title("Methods Data Viewer")
+st.title("FactSheets")
 
 # List of available methods (databases)
 methods = {
