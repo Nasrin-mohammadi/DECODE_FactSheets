@@ -2,7 +2,7 @@
 
 import streamlit as st
 import pandas as pd
-from database_handler import get_columns, query_database
+from main import get_columns, query_database
 
 # Streamlit app interface
 st.title("FactSheets")
